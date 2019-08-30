@@ -25,7 +25,7 @@ var cardsInPlay = [];
 
 function checkForMatch() {
   if (cardsInPlay[0] === cardsInPlay[1]) {
-    aler("You found a match!");
+    alert("You found a match!");
   } else {
     alert("Sorry, try again.");
   }
